@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { faCamera } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -10,7 +9,6 @@ import { faCamera } from '@fortawesome/free-solid-svg-icons';
 })
 export class UploadPhotoComponent implements OnInit {
 
-    icon = faCamera;
 
     constructor () {}
 

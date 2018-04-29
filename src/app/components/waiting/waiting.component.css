@@ -1,0 +1,13 @@
+.waiting-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 80vh;
+    background: #fff;
+    border-radius: 10px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+}

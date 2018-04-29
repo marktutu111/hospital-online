@@ -1,0 +1,28 @@
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 80vh;
+    background: #fff;
+    border-radius: 10px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+}
+
+
+.info-container .emtpy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ddd;
+}
+
+
+
+.info-container .emtpy-container > fa {
+    font-size: 35px;
+}

@@ -1,92 +1,18 @@
 <div class="home-container">
 
-        <div class="header-bar">
-          <!-- Menu button -->
-          <div class="placeholder-container" id="profile-settings-button">
-            <span class="ion-android-more-vertical placeholder-item" id="menu-button"></span>
-          </div>
-    
-    
-          <!-- LOGO CONTAINER -->
-          <div class="logo-photo-container">
-            <!-- Photo container -->
-            <div class="photo-container">
-              <div class="logo-photo"></div>
+        <app-header></app-header>
+        <div class="main-container">
+
+            <app-consultations></app-consultations>
+            <patient-consultations></patient-consultations>
+
+            <div class="stretch-right">
+                  <info-container></info-container>
             </div>
-          </div>
-    
-          <!--  -->
-          <div class="profile-photo-container">
-            <!-- Photo container -->
-            <div class="photo-container">
-              <div class="user-photo"></div>
-            </div>
-          </div>
-    
-          <!-- Username container -->
-          <div class="username-container">
-            <div class="doctor-username"></div>
-          </div>
-    
-    
-          <!-- missed call icon -->
-          <div class="placeholder-container">
-            <span class="ion-record placeholder-item" id="online-icon"></span>
-          </div>
-    
-          <!-- history icon -->
-          <div class="placeholder-container" id="history-button">
-            <span class="icon-history-icon placeholder-item"></span>
-          </div>
-    
-          <!-- notifications-icon -->
-          <div class="placeholder-container space" id="notifications-icon">
-            <div class="badge"></div>
-            <span class="ion-ios-bell placeholder-item"></span>
-          </div>
-    
-          <!-- logout button -->
-          <div class="placeholder-container space" id="logout-button">
-            <span class="ion-power placeholder-item"></span>
-          </div>
-    
-    
-    
+
         </div>
     
     
-        <!-- incoming connections view -->
-        <div class="contents-hidden" id="incomning-connection">
-          <!-- Patient profile photo -->
-          <div class="patient-profile-photo">
-            <div class="incoming-call-label">Incoming call</div>
-            <div id="patient-name"></div>
-            <div class="patient-photo"></div>
-            <div class="wrap-telephone">
-              <div class="telephone-container"></div>
-            </div>
-          </div>
-          <!-- <div class="bell-container">
-            <div class="telephone-container"></div>
-          </div> -->
-          <div class="consultations-button-container">
-            <button class="consultation-button" id="answer-button">Answer</button>
-            <button class="consultation-button" id="cancel-button">Cancel</button>
-          </div>
-        </div>
-    
-    
-        <!-- Call waiting view -->
-        <div class="contents-hidden" id="waiting-view">
-          <div class="waiting-view-container">
-            <div class="animated-waiting-doc"></div>
-          </div>
-          <div class="wrap-waiting-label">
-            Waiting for consultations.
-          </div>
-        </div>
-    
-    
-      </div>
+</div>
     
     

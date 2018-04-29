@@ -9,6 +9,7 @@ body {
     clear: both;
     padding: 0;
     margin: 0;
+    background: rgb(242, 245, 252);
 }
 
 
@@ -49,4 +50,33 @@ button {
 
 button:active {
     background-color: #2EFF71;
+}
+
+
+
+/* 
+
+    Icon Button
+
+*/
+.icon-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #eee;
+    color: #6d6d6d;
+}
+
+
+.icon-button > fa {
+    position: absolute;
+}
+
+
+.icon-button:active {
+    background-color: #ddd;
 }

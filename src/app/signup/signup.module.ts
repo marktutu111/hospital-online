@@ -1,10 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { 
-    FontAwesomeModule, 
-    FaIconComponent 
-} from "@fortawesome/angular-fontawesome";
 
 /*
 
@@ -31,7 +27,6 @@ import { routes } from "./signup.routing";
     ],
     imports: [ 
         CommonModule,
-        FontAwesomeModule,
         RouterModule.forChild(routes)
     ],
     exports: [
