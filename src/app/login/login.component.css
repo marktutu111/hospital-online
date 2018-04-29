@@ -1,0 +1,153 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+}
+
+
+.inputs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.inputs-container input {
+  margin-top: 5px;
+}
+
+
+.user-login-button {
+  margin-top: 15px;
+  width: 210px;
+}
+
+
+
+.welcome-label {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 35px;
+  margin: 15px;
+}
+
+
+.welcome-label-continue {
+  margin-bottom: 50px;
+}
+
+
+.options-label-container {
+  margin: 10px;
+  color: grey;
+  font-size: 15px;
+}
+
+
+#login-button-username {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 250px;
+  padding: 20px;
+}
+
+
+#login-button-gamil {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 250px;
+  padding: 20px;
+  margin-top: 10px;
+  background: #2ECC71;
+  color: white;
+}
+
+
+#login-button-gamil:hover {
+  background: #2EFF71;
+}
+
+.create-account-button-container {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.create-account-button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: solid thin #D7D7D7;
+  width: 150px;
+  color: #4A4A4A;
+  transition: all 0.5s ease;
+}
+
+
+.create-account-button:active {
+  color: #2ECC71;
+}
+
+
+.create-account-button:hover {
+  border-bottom: solid thin #2ECC71;
+}
+
+
+.input-container {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+
+.recover-password-container {
+  color: grey;
+  margin: 50px;
+}
+
+.recovery-button {
+  color: #2ECC71;
+  font-weight: 300;
+}
+
+.recovery-button:hover {
+  color: #2EFF91;
+  cursor: pointer;
+}
+
+
+.gmail-login-button {
+  border: solid thin #ddd;
+  color: #c0c0c0;
+}
+
+.gmail-login-button:hover {
+  border: solid thin #c0c0c0;
+}
+
+
+
+#loader {
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  padding: 5px;
+  float: right;
+  display: none;
+  opacity: 0;
+  transition: all 0.5s ease;
+}

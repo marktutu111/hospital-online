@@ -1,0 +1,28 @@
+.info-page-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex: 1;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.info-page-container .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.info-page-container input {
+    width: 300px;
+    margin: 10px auto;
+}
+
+
+.info-page-container button {
+    width: 250px;
+    margin: 50px auto;
+}
