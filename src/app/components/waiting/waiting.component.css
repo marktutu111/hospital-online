@@ -3,11 +3,55 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 40vw;
-    height: 80vh;
+    flex-direction: row;
+    width: 30vw;
+    height: 10vh;
     background: #fff;
     border-radius: 10px;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
     position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.waiting-cont .dr-cont {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/images/dr.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    border: solid thin #eee;
+    background-position-x: -20px;
+}
+
+
+.waiting-cont .dr-cont > img {
+    height: 100%;
+    flex: 1;
+}
+
+
+.waiting-cont .status-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    padding-left: 15px;
+}
+
+
+.waiting-cont .status-cont > span:last-child {
+    color: #6d6d6d;
+}
+
+
+.waiting-cont > button:last-child {
+    margin-left: 10px;
 }

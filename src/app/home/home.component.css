@@ -14,8 +14,9 @@
 .main-container .stretch-right {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   position: relative;
+  height: 84%;
 }

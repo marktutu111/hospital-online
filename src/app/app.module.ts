@@ -13,16 +13,12 @@ import { AppComponent } from './app.component';
 
 */ 
 import { routes } from "./app.routing";
-import { CallComponent } from './components/call/call.component';
-import { WaitingComponent } from './components/waiting/waiting.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CallComponent,
-    WaitingComponent,
   ],
   imports: [
     BrowserModule,

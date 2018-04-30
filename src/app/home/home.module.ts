@@ -15,7 +15,9 @@ import { HeaderComponent } from "../components";
 import { 
     ConsultationsComponent,
     PatientConsultationsComponent, 
-    InfoContainerComponent
+    InfoContainerComponent,
+    WaitingComponent,
+    CallComponent,
 } from "../components";
 
 
@@ -25,7 +27,9 @@ import {
         HeaderComponent,
         ConsultationsComponent,
         PatientConsultationsComponent,
-        InfoContainerComponent
+        InfoContainerComponent,
+        WaitingComponent,
+        CallComponent,
     ],
     imports: [ 
         CommonModule,
@@ -37,7 +41,9 @@ import {
         HeaderComponent,
         ConsultationsComponent,
         PatientConsultationsComponent,
-        InfoContainerComponent
+        InfoContainerComponent,
+        WaitingComponent,
+        CallComponent,
     ],
     providers: [],
 })

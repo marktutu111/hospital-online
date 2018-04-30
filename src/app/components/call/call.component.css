@@ -1,0 +1,80 @@
+.call-cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background-color: rgb(16, 16, 16);
+}
+
+
+.call-cont > img {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.call-cont .close-cam {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.call-cont .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.8;
+}
+
+
+.call-cont > .call-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100000;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+
+.call-cont > .call-buttons .icon-button:nth-child(2) {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 84, 84);
+    color: #fff;
+}
+
+
+
+.call-cont > .call-buttons .icon-button:nth-child(2) > fa {
+    font-size: 25px;
+}
+
+
+
+.caller-container {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #fff;
+    border-radius: 2px;
+}
