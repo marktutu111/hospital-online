@@ -10,6 +10,9 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 */
 import { HomeComponent } from "./home.component";
+import { SettingsModule } from "../settings/settings.module";
+
+
 import { routes } from "./home.routing";
 import { HeaderComponent } from "../components";
 import { 
@@ -36,6 +39,7 @@ import {
     imports: [ 
         CommonModule,
         AngularFontAwesomeModule,
+        SettingsModule,
         RouterModule.forChild(routes)
     ],
     providers: [],

@@ -6,3 +6,4 @@ export * from './info-container/info-container.component';
 export * from './waiting/waiting.component';
 export * from './call/call.component';
 export * from './chat/chat.component';
+export * from './lazy-tabs/lazy-tabs.component';
