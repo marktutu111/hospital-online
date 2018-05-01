@@ -1,0 +1,192 @@
+.chat-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 2px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.chat-container > .message-cont {
+    position: relative;
+    flex-direction: column;
+    background: #eee;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+} 
+
+
+.chat-container > .input-cont {
+    position: relative;
+    display: flex;
+    min-height: 50px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: solid thin #ddd;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.chat-container > .input-cont > input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+
+.chat-container > .input-cont button {
+    margin: 10px 10px;   
+}
+
+
+.chat-container > .satus-cont {
+    color: #6d6d6d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.satus-cont > .user-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.user-cont > span {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #2ecc71;
+    margin-left: 10px;
+}
+
+
+.satus-cont > .user-cont  > div:first-child {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+
+.satus-cont > .typing-cont {
+    margin-right: 10px;
+    color: #ddd;
+}
+
+
+.message-cont > ul {
+    position: relative;
+    display: block;
+    padding: 10px;
+    margin: 0;
+    clear: left;
+    height: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+
+.message-cont > ul > .left {
+    float: left;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    clear: right;
+    
+}
+
+
+
+
+.message-cont > ul > .left > p {
+    background: #fff;
+    border-radius: 10px;
+    color: #6d6d6d;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 300px;
+    font-size: 15px;
+}
+
+
+.message-cont > ul > .left > fa {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    position: absolute;
+    left: -5px;
+}
+
+
+
+
+/* 
+
+    CHAT BUBBLE RIGHT
+
+
+*/
+.message-cont > ul > .right {
+    float: right;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    clear: left;
+    
+}
+
+
+
+.message-cont > ul > .right > p {
+    background: rgb(155, 255, 237);
+    border-radius: 10px;
+    color: rgb(85, 107, 111);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 300px;
+    font-size: 15px;
+}
+
+
+.message-cont > ul > .right > fa {
+    color: rgb(155, 255, 237);    
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    position: absolute;
+    right: -5px;
+}
+

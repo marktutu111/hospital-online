@@ -18,6 +18,7 @@ import {
     InfoContainerComponent,
     WaitingComponent,
     CallComponent,
+    ChatComponent,
 } from "../components";
 
 
@@ -30,20 +31,12 @@ import {
         InfoContainerComponent,
         WaitingComponent,
         CallComponent,
+        ChatComponent,
     ],
     imports: [ 
         CommonModule,
         AngularFontAwesomeModule,
         RouterModule.forChild(routes)
-    ],
-    exports: [
-        HomeComponent,
-        HeaderComponent,
-        ConsultationsComponent,
-        PatientConsultationsComponent,
-        InfoContainerComponent,
-        WaitingComponent,
-        CallComponent,
     ],
     providers: [],
 })
