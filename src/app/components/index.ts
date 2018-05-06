@@ -7,3 +7,5 @@ export * from './waiting/waiting.component';
 export * from './call/call.component';
 export * from './chat/chat.component';
 export * from './lazy-tabs/lazy-tabs.component';
+export * from './profile/profile.component';
+export * from './payment-method/payment-method.component';

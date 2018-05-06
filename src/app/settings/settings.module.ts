@@ -7,6 +7,8 @@ import { routes } from "./settings.routing";
 import { SettingsComponent } from "./settings.component";
 import { 
     LazyTabsComponent,
+    ProfileComponent,
+    PaymentMethodComponent
  } from "../components";
 
 
@@ -14,6 +16,8 @@ import {
     declarations: [
         SettingsComponent,
         LazyTabsComponent,
+        ProfileComponent,
+        PaymentMethodComponent,
     ],
     imports: [ 
         CommonModule,
@@ -21,6 +25,8 @@ import {
      ],
     exports: [
         SettingsComponent,
+        ProfileComponent,
+        PaymentMethodComponent,
     ],
     providers: [],
 })

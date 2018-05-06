@@ -1,0 +1,71 @@
+<div class="contents-container">
+
+    <div class="type-buttons-cont">
+      <span (click)="onCardClicked(0)" [class.type-active]="selected === 0">
+        Card Payment
+        <fa name="caret-down" *ngIf="selected === 0"></fa>        
+      </span>
+      <span (click)="onCardClicked(1)" [class.type-active]="selected === 1">
+        Bank Deposit
+        <fa name="caret-down" *ngIf="selected === 1"></fa>
+      </span>
+    </div>
+
+    <div *ngIf="selected === 0">
+
+          <div class="summary-cont">
+              <div>
+                <span>Card holder name</span>
+                <span>Osei Mark</span>
+              </div>
+              <div>
+                <span>Card number</span>
+                <span>*********123</span>
+              </div>
+              <div>
+                <span>Expiry date</span>
+                <span>3/02/18</span>
+              </div>
+          </div>
+
+    </div>
+
+    <div *ngIf="selected === 1">
+        <div class="summary-cont">
+            <div>
+              <span>Bank name</span>
+              <span>Standard chartered Bank</span>
+            </div>
+            <div>
+              <span>Account number</span>
+              <span>*********123</span>
+            </div>
+            <div>
+              <span>Account name</span>
+              <span>Tutu Osei</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="card-edit-buttons-cont">
+        <div>
+            <span>Remove</span>
+            <button class="icon-button">
+                <fa name="close"></fa>
+            </button>
+        </div>
+        <div>
+          <button class="icon-button">
+            <fa name="pencil"></fa>
+          </button>
+          <span>Add | Edit</span>
+        </div>
+    </div>
+    
+
+
+
+</div>

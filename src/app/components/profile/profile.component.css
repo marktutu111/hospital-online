@@ -1,0 +1,32 @@
+.contents-cont {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.contents-cont > .lable-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px;
+    width: 100%;
+}
+
+
+.lable-cont > span:first-child {
+    color: #6d6d6d;
+    font-size: 15px;
+    flex: 1;
+    text-align: left;
+} 
+
+
+
+.lable-cont > span:last-child {
+    color: #000;
+    font-size: 17px;
+    flex: 2;
+} 

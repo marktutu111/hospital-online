@@ -7,8 +7,9 @@
     height: auto;
     background-color: #fff;
     display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
     padding: 10px;
 }
 
@@ -23,15 +24,23 @@
     background-size: cover;
     background-position: center;
     margin-left: 35px;
+    position: relative;
 }
 
+
+.logo-container > span {
+    color: #6d6d6d;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    width: 150px;
+}
 
 .buttons-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    flex: 1;
     padding-right: 25px;
 }
 
@@ -117,10 +126,10 @@
 }
 
 
-.menu-button > .caret {
+.menu-button > #caret {
     position: absolute;
     bottom: -37px;
-    color: #ffff;
+    color: #fff;
     font-size: 30px;
 }
 
@@ -137,4 +146,97 @@
     padding: 5px;
     z-index: 10000;
     font-size: 10px;
+}
+
+
+
+
+/*
+
+    Call controls container
+
+*/
+
+.wrap-call-controls {
+    border: solid thin #eee;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    flex-direction: row;
+}
+
+
+
+.wrap-call-controls > span {
+    height: 20px;
+    width: 1px;
+    background-color: #ddd;
+    margin: 5px 5px;
+}
+
+
+.wrap-call-controls .cancel {
+    background-color: rgb(255, 169, 169);
+    color: rgb(202, 39, 39);
+}
+
+
+.cancel:active, .accept:active {
+    opacity: 0.6;
+}
+
+
+.wrap-call-controls .accept {
+    background-color: rgb(229, 255, 240);
+    color: rgba(47, 125, 112, 0.8);
+}
+
+
+
+.wrap-call-controls > .status {
+    background: #eee;
+    text-align: center;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+.wrap-call-controls > .dr-cont {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/images/dr.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+    border: solid thin #eee;
+    background-position-x: -12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.wrap-call-controls > .ring-cont {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/images/telephone.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-size: 60px; */
+    border: solid thin #eee;
+    /* background-position-x: -12px; */
+    margin-left: 10px;
 }

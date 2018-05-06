@@ -22,6 +22,7 @@ import {
     WaitingComponent,
     CallComponent,
     ChatComponent,
+    ConsultationDetailsComponent,
 } from "../components";
 
 
@@ -35,6 +36,7 @@ import {
         WaitingComponent,
         CallComponent,
         ChatComponent,
+        ConsultationDetailsComponent,
     ],
     imports: [ 
         CommonModule,

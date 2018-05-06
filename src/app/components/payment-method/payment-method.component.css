@@ -1,0 +1,118 @@
+.contents-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contents-container > .type-buttons-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px auto;
+}
+
+
+
+.type-buttons-cont > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: solid thin #eee;
+    border-radius: 5px;
+    margin: 10px 10px;
+    cursor: pointer;
+    position: relative;
+    color: #6d6d6d;
+}
+
+
+
+
+.type-buttons-cont > span > fa {
+    position: absolute;
+    bottom: -19px;
+    font-size: 25px;
+    color: #eee;
+}
+
+
+
+.type-buttons-cont > span:hover {
+    background: #eee;
+    border: solid thin #ddd;
+}
+
+
+
+.type-active {
+    background: #eee;
+    border: solid thin #ddd;
+}
+
+
+
+.summary-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+
+
+.summary-cont > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px auto;
+    width: 100%;
+
+}
+
+
+
+.summary-cont > div > span:first-child {
+    color: #6d6d6d;
+}
+
+
+
+
+.card-edit-buttons-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px auto;
+}
+
+
+
+
+.card-edit-buttons-cont > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 10px;
+}
+
+
+
+
+.card-edit-buttons-cont > 
+    div > 
+        span {
+    margin: 10px 10px;
+    color: rgb(134, 134, 134);
+}
